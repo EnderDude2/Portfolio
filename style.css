@@ -3,27 +3,45 @@ body {
     margin: 0px;
 }
 
-.Sg {
+.image {
     width: 175px;
     margin-bottom: 50px;
     border-radius: 20%;
 }
 
-#Welcome {
+.parallax-inner {
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#name {
+    font-size: 30px;
+    line-height: 1.2;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+.profile {
+    width: 175px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+
+#welcome {
     position: absolute;
-    overflow: hidden;
-    height: 800px;
+    height: 500px;
     color: ghostwhite;
     left: 0;
     bottom: 0;
     top: 0;
     right: 0;
     opacity: 0.83;
-    background-color: dodgerblue;
+    background: linear-gradient(#60ebeb 0%, #27ae60 100%);
     display: table;
     height: 100%;
     width: 100%;
-    z-index: nine;
+    z-index: 9;
 }
 
 h1 {
@@ -44,7 +62,7 @@ h2 {
     line-height: 1.2;
 }
 
-#SG {
+.SG {
     display: table-cell;
     position: relative;
     text-align: center;
@@ -94,9 +112,11 @@ p {
 .links:hover {
     background-color: white;
 }
-a{
-    text-decoration:none;
+
+a {
+    text-decoration: none;
 }
-.article:hover{
-    color:dodgerblue;
+
+.article:hover {
+    color: dodgerblue;
 }
