@@ -37,7 +37,7 @@ body {
     top: 0;
     right: 0;
     opacity: 0.83;
-    background: linear-gradient(#60ebeb 0%, #27ae60 100%);
+    background: linear-gradient(#7FFFD4 25%, #1E90FF 75%);
     display: table;
     height: 100%;
     width: 100%;
@@ -46,7 +46,7 @@ body {
 
 h1 {
     font-size: 40px;
-    font-family: sans-serif;
+    10 font-family: sans-serif;
     font-weight: 300;
 }
 
@@ -99,18 +99,19 @@ p {
 }
 
 .links {
-    float: left;
     color: aquamarine;
     padding-top: 5px;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-bottom: bottom;
+    padding-left: 30px;
+    padding-right: 30px;
     font-family: fantasy;
     font-size: 20px;
+    display: inline;
 }
 
 .links:hover {
     background-color: white;
+    font-size: 25px;
+    text-decoration: underline;
 }
 
 a {
@@ -119,4 +120,30 @@ a {
 
 .article:hover {
     color: dodgerblue;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#writings a {
+    text-shadow: none !important;
+    text-decoration: underline !important;
+    color: cyan;
+}
+
+#contact {
+    background-color: firebrick;
+}
+
+.contact1 a {
+    color: white;
+    text-shadow: none;
+}
+
+.contact1 h3 {
+    display: inline;
+}
+#contact iframe {
+    width:100%
 }
